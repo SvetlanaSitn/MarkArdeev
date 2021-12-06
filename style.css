@@ -1,0 +1,47 @@
+.logo{
+    float: left;
+}
+.name{
+    float: right;
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+}
+.blok{
+    background-color:rgb(3, 182, 173);
+    border: 1px solid rgb(243, 243, 243);
+    height:  4em;
+    padding: 5px 20px;
+}
+body{
+    margin: 0;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.container-1 div{
+    background-color: rgb(201, 255, 4);
+    border: 1px solid black;
+}
+.box-1{
+    flex: 1;
+}
+.box-2{
+    flex: 1;
+}
+.box-3{
+    flex: 1;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10%;
+    background-color: rgb(223, 223, 223);
+}
+.logo2{
+    cursor: pointer;
+}
